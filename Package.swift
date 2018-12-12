@@ -19,7 +19,7 @@ let package = Package(
     dependencies: [
         .package(url: "https://github.com/vapor/vapor.git", .exact("3.1.0")),
         .package(url: "https://github.com/HappySwifter/GraphQL.git", .branch("master")),
-        .package(url: "https://github.com/noahemmet/Graphiti.git", .branch("master")),
+        .package(url: "https://github.com/HappySwifter/Graphiti.git", .branch("master")),
     ],
     targets: [
         .target(
